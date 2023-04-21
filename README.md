@@ -1,1 +1,1 @@
-# katatoropcova.github.io.
+# katatoropcova.github.io
