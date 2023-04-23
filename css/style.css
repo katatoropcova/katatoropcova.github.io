@@ -4,13 +4,9 @@
 }
 
 body {
-	background-color: #1C7A7A;
+	background-color: rgb(59, 19, 90);
 	font-family: 'Shantell Sans', cursive;
-	background-image: url(/img/background2.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	/* background-size: cover; */
-
+	/*background-image: url(/img/myBackground.png);*/
 }
 
 header {
@@ -27,7 +23,7 @@ header {
 	color: white;
 	border: solid 2px white;
 	border-radius: 70px;
-	display: none;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	transition: 0.5s;
@@ -49,21 +45,6 @@ header {
 	padding-top: 5px;
 }
 
-.score {
-	display: none;
-	color: white;
-	font-size: 50px;
-	padding-top: 5px;
-}
-
-.best_score {
-	margin-top: 30px;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding-top: 5px;
-}
-
 .game-section__container {
 	display: flex;
 	flex-direction: column;
@@ -78,7 +59,7 @@ header {
 	border-radius: 10px;
 	width: 300px;
 	height: 50px;
-	margin: 20px auto;
+	margin: 40px auto;
 	font-size: 30px;
 	display: flex;
 	justify-content: center;
@@ -91,70 +72,4 @@ header {
 	color: rgb(59, 19, 90);
 	font-size: 32px;
 	transition: 0.2s;
-}
-
-.game-menu__title {
-	color: white;
-	font-size: 35px;
-	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 40px;
-}
-
-.game-field {
-	margin: auto;
-	display: flex;
-	width: 1000px;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.game-card {
-	width: 133px;
-	height: 200px;
-	background-image: url(/img/backsidt.png);
-	background-size: cover;
-	margin: 15px;
-	border-radius: 20px;
-	transform: perspective(100px) rotateY(0deg);
-	transition: 0.5s
-}
-
-.type1 {
-	background-image: url(/img/card3.png);
-}
-
-.type2 {
-	background-image: url(/img/card4.png);
-}
-
-.type3 {
-	background-image: url(/img/card5.png);
-}
-
-.type4 {
-	background-image: url(/img/card6.png);
-}
-
-.type5 {
-	background-image: url(/img/card7.png);
-}
-
-.type6 {
-	background-image: url(/img/card8.png);
-}
-
-.type7 {
-	background-image: url(/img/card9.png);
-}
-
-.type8 {
-	background-image: url(/img/card10.png);
-}
-
-.flip {
-	background-color: rgb(151, 179, 179);
-
-	transform: perspective(100px) rotateY(-180deg);
-	transition: 0.5s
 }
