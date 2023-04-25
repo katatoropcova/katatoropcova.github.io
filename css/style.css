@@ -6,7 +6,7 @@
 body {
 	background-color: #1C7A7A;
 	font-family: 'Shantell Sans', cursive;
-	background-image: url(/bootcamp-main/img/background3.png);
+	background-image: url(/img/background3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	/* background-size: cover; */
@@ -112,7 +112,7 @@ header {
 .game-card {
 	width: 133px;
 	height: 200px;
-	background-image: url(/bootcamp-main/img/backsidt.png);
+	background-image: url(/img/backsidt.png);
 	background-size: cover;
 	margin: 15px;
 	border-radius: 20px;
@@ -121,35 +121,35 @@ header {
 }
 
 .type1 {
-	background-image: url(/bootcamp-main/img/card3.png);
+	background-image: url(/img/card3.png);
 }
 
 .type2 {
-	background-image: url(/bootcamp-main/img/card4.png);
+	background-image: url(/img/card4.png);
 }
 
 .type3 {
-	background-image: url(/bootcamp-main/img/card5.png);
+	background-image: url(/img/card5.png);
 }
 
 .type4 {
-	background-image: url(/bootcamp-main/img/card6.png);
+	background-image: url(/img/card6.png);
 }
 
 .type5 {
-	background-image: url(/bootcamp-main/img/card7.png);
+	background-image: url(/img/card7.png);
 }
 
 .type6 {
-	background-image: url(/bootcamp-main/img/card8.png);
+	background-image: url(/img/card8.png);
 }
 
 .type7 {
-	background-image: url(/bootcamp-main/img/card9.png);
+	background-image: url(/img/card9.png);
 }
 
 .type8 {
-	background-image: url(/bootcamp-main/img/card10.png);
+	background-image: url(/img/card10.png);
 }
 
 .flip {
